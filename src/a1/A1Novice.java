@@ -35,11 +35,13 @@ public class A1Novice {
 			for (int j = 0; j < numItems; j++) {
 				System.out.println();
 				System.out.println();
-				System.out.println("What item did they buy?");
-				String item = scan.next();
 				
 				System.out.println("How many of that item did they buy?");
 				int amt = scan.nextInt();
+				
+				System.out.println("What item did they buy?");
+				String item = scan.next();
+				
 				
 				System.out.println("How much does that item cost?");
 				double price = scan.nextDouble()*amt;

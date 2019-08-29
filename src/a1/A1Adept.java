@@ -54,11 +54,14 @@ public class A1Adept {
 			for (int j = 0; j < numBought; j++) {
 				System.out.println();
 				System.out.println();
-				System.out.println("What item did they buy?");
-				String item = scan.next();
 				
 				System.out.println("How many of that item did they buy?");
 				int amt = scan.nextInt();
+				
+				System.out.println("What item did they buy?");
+				String item = scan.next();
+				
+				
 				
 				int itemNum = 0;
 				for (int k = 0; k < numItems; k++) {
